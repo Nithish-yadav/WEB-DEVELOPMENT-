@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD</title>
+    <link rel="stylesheet" href="cardhover.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 1St CARD -->
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>NAME</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi hic reprehenderit vel quasi
+                    quisquam.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <!-- 2nd CARD -->
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>NAME</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi hic reprehenderit vel quasi
+                    quisquam.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <!-- 3rd CARD -->
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>NAME</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi hic reprehenderit vel quasi
+                    quisquam.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="abc.js"></script>
+
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+</body>
+
+</html>
